@@ -1,0 +1,509 @@
+JFDML JFormDesigner: "5.2.1.0.138" Java: "1.8.0_05" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jgoodies.forms.layout.FormLayout ) {
+			"$columnSpecs": "default:grow"
+			"$rowSpecs": "fill:default:grow"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jgoodies.forms.layout.FormLayout ) {
+				"$columnSpecs": "unrelgap, pref, labelcompgap, min(pref;150px), 20px, default, labelcompgap, max(default;120px):grow, unrelgap"
+				"$rowSpecs": "linegap, fill:default, linegap, fill:default, linegap, fill:default, linegap, fill:default, linegap, fill:default, linegap, fill:default, linegap, fill:default, default:grow, linegap, default, linegap, default, linegap"
+				"$rowGroupIds": "0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0"
+			} ) {
+				name: "panel1"
+				"border": new javax.swing.border.TitledBorder( "Create/Update/Delete  intelligence" )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "countryLabel"
+					"text": "Country*"
+					"labelFor": new FormReference( "countryCombobox" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 2
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "countryCombobox"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "Afghanistan"
+						addElement( "Afghanistan" )
+						addElement( "Åland Islands" )
+						addElement( "Albania" )
+						addElement( "Algeria" )
+						addElement( "American Samoa" )
+						addElement( "Andorra" )
+						addElement( "Angola" )
+						addElement( "Anguilla" )
+						addElement( "Antarctica" )
+						addElement( "Antigua And Barbuda" )
+						addElement( "Argentina" )
+						addElement( "Armenia" )
+						addElement( "Aruba" )
+						addElement( "Australia" )
+						addElement( "Austria" )
+						addElement( "Azerbaijan" )
+						addElement( "Bahamas" )
+						addElement( "Bahrain" )
+						addElement( "Bangladesh" )
+						addElement( "Barbados" )
+						addElement( "Belarus" )
+						addElement( "Belgium" )
+						addElement( "Belize" )
+						addElement( "Benin" )
+						addElement( "Bermuda" )
+						addElement( "Bhutan" )
+						addElement( "Bolivia" )
+						addElement( "Bosnia And Herzegovina" )
+						addElement( "Botswana" )
+						addElement( "Bouvet Island" )
+						addElement( "Brazil" )
+						addElement( "British Indian Ocean Territory" )
+						addElement( "Brunei Darussalam" )
+						addElement( "Bulgaria" )
+						addElement( "Burkina Faso" )
+						addElement( "Burundi" )
+						addElement( "Cambodia" )
+						addElement( "Cameroon" )
+						addElement( "Canada" )
+						addElement( "Cape Verde" )
+						addElement( "Cayman Islands" )
+						addElement( "Central African Republic" )
+						addElement( "Chad" )
+						addElement( "Chile" )
+						addElement( "China" )
+						addElement( "Christmas Island" )
+						addElement( "Cocos (Keeling) Islands" )
+						addElement( "Colombia" )
+						addElement( "Comoros" )
+						addElement( "Congo" )
+						addElement( "Congo, The Democratic Republic Of The" )
+						addElement( "Cook Islands" )
+						addElement( "Costa Rica" )
+						addElement( "Cote D'ivoire" )
+						addElement( "Croatia" )
+						addElement( "Cuba" )
+						addElement( "Cyprus" )
+						addElement( "Czech Republic" )
+						addElement( "Denmark" )
+						addElement( "Djibouti" )
+						addElement( "Dominica" )
+						addElement( "Dominican Republic" )
+						addElement( "Ecuador" )
+						addElement( "Egypt" )
+						addElement( "El Salvador" )
+						addElement( "Equatorial Guinea" )
+						addElement( "Eritrea" )
+						addElement( "Estonia" )
+						addElement( "Ethiopia" )
+						addElement( "Falkland Islands (Malvinas)" )
+						addElement( "Faroe Islands" )
+						addElement( "Fiji" )
+						addElement( "Finland" )
+						addElement( "France" )
+						addElement( "French Guiana" )
+						addElement( "French Polynesia" )
+						addElement( "French Southern Territories" )
+						addElement( "Gabon" )
+						addElement( "Gambia" )
+						addElement( "Georgia" )
+						addElement( "Germany" )
+						addElement( "Ghana" )
+						addElement( "Gibraltar" )
+						addElement( "Greece" )
+						addElement( "Greenland" )
+						addElement( "Grenada" )
+						addElement( "Guadeloupe" )
+						addElement( "Guam" )
+						addElement( "Guatemala" )
+						addElement( "Guernsey" )
+						addElement( "Guinea" )
+						addElement( "Guinea-bissau" )
+						addElement( "Guyana" )
+						addElement( "Haiti" )
+						addElement( "Heard Island And Mcdonald Islands" )
+						addElement( "Holy See (Vatican City State)" )
+						addElement( "Honduras" )
+						addElement( "Hong Kong" )
+						addElement( "Hungary" )
+						addElement( "Iceland" )
+						addElement( "India" )
+						addElement( "Indonesia" )
+						addElement( "Iran, Islamic Republic Of" )
+						addElement( "Iraq" )
+						addElement( "Ireland" )
+						addElement( "Isle Of Man" )
+						addElement( "Israel" )
+						addElement( "Italy" )
+						addElement( "Jamaica" )
+						addElement( "Japan" )
+						addElement( "Jersey" )
+						addElement( "Jordan" )
+						addElement( "Kazakhstan" )
+						addElement( "Kenya" )
+						addElement( "Kiribati" )
+						addElement( "Korea, Democratic People's Republic Of" )
+						addElement( "Korea, Republic Of" )
+						addElement( "Kuwait" )
+						addElement( "Kyrgyzstan" )
+						addElement( "Lao People's Democratic Republic" )
+						addElement( "Latvia" )
+						addElement( "Lebanon" )
+						addElement( "Lesotho" )
+						addElement( "Liberia" )
+						addElement( "Libyan Arab Jamahiriya" )
+						addElement( "Liechtenstein" )
+						addElement( "Lithuania" )
+						addElement( "Luxembourg" )
+						addElement( "Macao" )
+						addElement( "Macedonia, The Former Yugoslav Republic Of" )
+						addElement( "Madagascar" )
+						addElement( "Malawi" )
+						addElement( "Malaysia" )
+						addElement( "Maldives" )
+						addElement( "Mali" )
+						addElement( "Malta" )
+						addElement( "Marshall Islands" )
+						addElement( "Martinique" )
+						addElement( "Mauritania" )
+						addElement( "Mauritius" )
+						addElement( "Mayotte" )
+						addElement( "Mexico" )
+						addElement( "Micronesia, Federated States Of" )
+						addElement( "Moldova, Republic Of" )
+						addElement( "Monaco" )
+						addElement( "Mongolia" )
+						addElement( "Montenegro" )
+						addElement( "Montserrat" )
+						addElement( "Morocco" )
+						addElement( "Mozambique" )
+						addElement( "Myanmar" )
+						addElement( "Namibia" )
+						addElement( "Nauru" )
+						addElement( "Nepal" )
+						addElement( "Netherlands" )
+						addElement( "Netherlands Antilles" )
+						addElement( "New Caledonia" )
+						addElement( "New Zealand" )
+						addElement( "Nicaragua" )
+						addElement( "Niger" )
+						addElement( "Nigeria" )
+						addElement( "Niue" )
+						addElement( "Norfolk Island" )
+						addElement( "Northern Mariana Islands" )
+						addElement( "Norway" )
+						addElement( "Oman" )
+						addElement( "Pakistan" )
+						addElement( "Palau" )
+						addElement( "Palestinian Territory, Occupied" )
+						addElement( "Panama" )
+						addElement( "Papua New Guinea" )
+						addElement( "Paraguay" )
+						addElement( "Peru" )
+						addElement( "Philippines" )
+						addElement( "Pitcairn" )
+						addElement( "Poland" )
+						addElement( "Portugal" )
+						addElement( "Puerto Rico" )
+						addElement( "Qatar" )
+						addElement( "Reunion" )
+						addElement( "Romania" )
+						addElement( "Russian Federation" )
+						addElement( "Rwanda" )
+						addElement( "Saint Helena" )
+						addElement( "Saint Kitts And Nevis" )
+						addElement( "Saint Lucia" )
+						addElement( "Saint Pierre And Miquelon" )
+						addElement( "Saint Vincent And The Grenadines" )
+						addElement( "Samoa" )
+						addElement( "San Marino" )
+						addElement( "Sao Tome And Principe" )
+						addElement( "Saudi Arabia" )
+						addElement( "Senegal" )
+						addElement( "Serbia" )
+						addElement( "Seychelles" )
+						addElement( "Sierra Leone" )
+						addElement( "Singapore" )
+						addElement( "Slovakia" )
+						addElement( "Slovenia" )
+						addElement( "Solomon Islands" )
+						addElement( "Somalia" )
+						addElement( "South Africa" )
+						addElement( "South Georgia And The South Sandwich Islands" )
+						addElement( "Spain" )
+						addElement( "Sri Lanka" )
+						addElement( "Sudan" )
+						addElement( "Suriname" )
+						addElement( "Svalbard And Jan Mayen" )
+						addElement( "Swaziland" )
+						addElement( "Sweden" )
+						addElement( "Switzerland" )
+						addElement( "Syrian Arab Republic" )
+						addElement( "Taiwan, Province Of China" )
+						addElement( "Tajikistan" )
+						addElement( "Tanzania, United Republic Of" )
+						addElement( "Thailand" )
+						addElement( "Timor-leste" )
+						addElement( "Togo" )
+						addElement( "Tokelau" )
+						addElement( "Tonga" )
+						addElement( "Trinidad And Tobago" )
+						addElement( "Tunisia" )
+						addElement( "Turkey" )
+						addElement( "Turkmenistan" )
+						addElement( "Turks And Caicos Islands" )
+						addElement( "Tuvalu" )
+						addElement( "Uganda" )
+						addElement( "Ukraine" )
+						addElement( "United Arab Emirates" )
+						addElement( "United Kingdom" )
+						addElement( "United States" )
+						addElement( "United States Minor Outlying Islands" )
+						addElement( "Uruguay" )
+						addElement( "Uzbekistan" )
+						addElement( "Vanuatu" )
+						addElement( "Venezuela" )
+						addElement( "Viet Nam" )
+						addElement( "Virgin Islands, British" )
+						addElement( "Virgin Islands, U.S." )
+						addElement( "Wallis And Futuna" )
+						addElement( "Western Sahara" )
+						addElement( "Yemen" )
+						addElement( "Zambia" )
+						addElement( "Zimbabwe" )
+					}
+					"nextFocusableComponent": new FormReference( "cityTextfield" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 2
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "subjectLabel"
+					"text": "Subject*"
+					"labelFor": new FormReference( "subjectTextfield" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 6
+					"gridY": 2
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "subjectTextfield"
+					"nextFocusableComponent": new FormReference( "detailsTextarea" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 8
+					"gridY": 2
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "cityLabel"
+					"text": "City*"
+					"labelFor": new FormReference( "cityTextfield" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 4
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "cityTextfield"
+					"nextFocusableComponent": new FormReference( "countyTextfield" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 4
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "detailsLabel"
+					"text": "Details*"
+					"labelFor": new FormReference( "detailsTextarea" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 6
+					"gridY": 4
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "countyLabel"
+					"text": "County"
+					"labelFor": new FormReference( "countyTextfield" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 6
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "countyTextfield"
+					"nextFocusableComponent": new FormReference( "nameTextfield" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 6
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "detailsScrollpane"
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "detailsTextarea"
+						"nextFocusableComponent": new FormReference( "saveButton" )
+						"lineWrap": true
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 8
+					"gridY": 4
+					"gridHeight": 12
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "nameLabel"
+					"text": "Name"
+					"labelFor": new FormReference( "nameTextfield" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 8
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "nameTextfield"
+					"nextFocusableComponent": new FormReference( "surnameTextfield" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 8
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "surnameLabel"
+					"text": "Surname"
+					"labelFor": new FormReference( "surnameTextfield" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 10
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "surnameTextfield"
+					"nextFocusableComponent": new FormReference( "phoneTextfield" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 10
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "phoneLabel"
+					"text": "Phone"
+					"labelFor": new FormReference( "phoneTextfield" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 12
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "phoneTextfield"
+					"nextFocusableComponent": new FormReference( "emailTextfield" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 12
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "emailLabel"
+					"text": "E-mail"
+					"labelFor": new FormReference( "emailTextfield" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 14
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "emailTextfield"
+					"nextFocusableComponent": new FormReference( "subjectTextfield" )
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 14
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblidv"
+					"text": "-"
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 15
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Attach."
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 17
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "attachmentButton"
+					"text": "..."
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 17
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "clearFormButton"
+					"text": "Clear Form"
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 4
+					"gridY": 19
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "deleteButton"
+						"text": "Delete"
+						"preferredSize": new java.awt.Dimension( 140, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "updateButton"
+						"text": "Update"
+						"preferredSize": new java.awt.Dimension( 140, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "saveButton"
+						"text": "Save "
+						"nextFocusableComponent": new FormReference( "countryCombobox" )
+						"preferredSize": new java.awt.Dimension( 140, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 8
+					"gridY": 19
+				} )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 1
+				"gridY": 1
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 795, 500 )
+		} )
+	}
+}

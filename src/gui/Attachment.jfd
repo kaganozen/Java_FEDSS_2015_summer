@@ -1,0 +1,265 @@
+JFDML JFormDesigner: "5.2.1.0.138" Java: "1.8.0_05" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"$sizePolicy": 1
+			"defaultCloseOperation": 2
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jgoodies.forms.layout.FormLayout ) {
+				"$columnSpecs": "default, left:94dlu:grow, max(pref;196px):grow"
+				"$rowSpecs": "fill:default, linegap, default, linegap, default, linegap, default, linegap, default"
+			} ) {
+				name: "panel1"
+				"preferredSize": new java.awt.Dimension( 570, 200 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "attachmentidLabel"
+					"text": "-"
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 1
+					"gridY": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "attachmentNameLabel"
+					"text": "-"
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "attachmentSurnameLabel"
+					"text": "-"
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Attachment1:  "
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 3
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "attachmentTextField1"
+					"preferredSize": new java.awt.Dimension( 200, 34 )
+					"editable": false
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 3
+					"vAlign": sfield com.jgoodies.forms.layout.CellConstraints CENTER
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+					"alignment": 0
+				} ) {
+					name: "panel2"
+					"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+					"preferredSize": new java.awt.Dimension( 500, 40 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "addButton1"
+						"text": "Add"
+						"preferredSize": new java.awt.Dimension( 80, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "downloadButton1"
+						"text": "Download"
+						"preferredSize": new java.awt.Dimension( 130, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "downloadToButton1"
+						"text": "Download to..."
+						"preferredSize": new java.awt.Dimension( 145, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "deleteButton1"
+						"text": "Delete"
+						"preferredSize": new java.awt.Dimension( 120, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 3
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Attachment2:   "
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 5
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "attachmentTextField2"
+					"preferredSize": new java.awt.Dimension( 200, 34 )
+					"editable": false
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 5
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+					"alignment": 0
+				} ) {
+					name: "panel3"
+					"preferredSize": new java.awt.Dimension( 500, 40 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "addButton2"
+						"text": "Add"
+						"preferredSize": new java.awt.Dimension( 80, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "downloadButton2"
+						"text": "Download"
+						"preferredSize": new java.awt.Dimension( 130, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "downloadToButton2"
+						"text": "Download to..."
+						"preferredSize": new java.awt.Dimension( 145, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "deleteButton2"
+						"text": "Delete"
+						"preferredSize": new java.awt.Dimension( 120, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 5
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Attachment3:   "
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 7
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "attachmentTextField3"
+					"preferredSize": new java.awt.Dimension( 200, 34 )
+					"editable": false
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 7
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+					"alignment": 0
+				} ) {
+					name: "panel4"
+					"preferredSize": new java.awt.Dimension( 500, 40 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "addButton3"
+						"text": "Add"
+						"preferredSize": new java.awt.Dimension( 80, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "downloadButton3"
+						"text": "Download"
+						"preferredSize": new java.awt.Dimension( 130, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "downloadToButton3"
+						"text": "Download to..."
+						"preferredSize": new java.awt.Dimension( 145, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "deleteButton3"
+						"text": "Delete"
+						"preferredSize": new java.awt.Dimension( 120, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 7
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblSave"
+					"text": "Save Location :"
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 1
+					"gridY": 9
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "locationTextField"
+					"preferredSize": new java.awt.Dimension( 200, 34 )
+					"editable": false
+					auxiliary() {
+						"JavaCodeGenerator.variableGetter": true
+					}
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 2
+					"gridY": 9
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+					"alignment": 0
+				} ) {
+					name: "panel5"
+					"preferredSize": new java.awt.Dimension( 260, 40 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "changeButton"
+						"text": "Change"
+						"preferredSize": new java.awt.Dimension( 100, 34 )
+						auxiliary() {
+							"JavaCodeGenerator.variableGetter": true
+						}
+					} )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 9
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 840, 245 )
+		} )
+	}
+}
